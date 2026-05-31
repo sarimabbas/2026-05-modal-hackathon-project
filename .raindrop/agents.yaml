@@ -1,0 +1,14 @@
+human_computer_use:
+  command: npm run replay:server
+
+  input:
+    execute: boolean
+    limit: number
+    delayMs: number
+    checkEvery: number
+
+  prefillFromTrace:
+    execute: properties.replay.execute
+    limit: properties.replay.limit
+    delayMs: properties.replay.delayMs
+    checkEvery: properties.replay.checkEvery

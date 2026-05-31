@@ -1,0 +1,4 @@
+interface:
+  display_name: "Computer Use Replay"
+  short_description: "Replay recorded computer-use traces"
+  default_prompt: "Use $computer-use-replay to find a recorded computer-use trace, build a replay plan, and execute or benchmark it."

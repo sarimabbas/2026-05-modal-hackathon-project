@@ -1,0 +1,4 @@
+Human Rewind API http://127.0.0.1:4317
+DB /Users/sarimabbas/.raindrop/raindrop_workshop.db
+Screenshots /Users/sarimabbas/.raindrop/human-trace-screenshots
+Pruned human traces older than 2h: 0 runs, 0 spans, 0 screenshots

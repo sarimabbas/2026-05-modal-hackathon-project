@@ -1,0 +1,26 @@
+{
+  "name": "mochi-rewind",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c '#9fb6ff,#f7c873' 'node server/api.mjs' 'vite --host 127.0.0.1'",
+    "api": "node server/api.mjs",
+    "web": "vite --host 127.0.0.1",
+    "replay:server": "node scripts/replay-server.mjs",
+    "replay:bench": "node scripts/replay.mjs bench-suite",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "concurrently": "latest",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}
